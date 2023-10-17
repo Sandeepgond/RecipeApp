@@ -1,10 +1,10 @@
-
 # Recipe App
 
 ### Overview
 The Recipe Application is a web-based platform that allows users to explore and manage their favorite recipes. Users can view recipe details, add recipes to their favorites, and delete recipes from their favorites.
 
 ## Features
+
 ### 1. User Authentication
 - Users can create accounts or log in with existing credentials.
 - Authentication is implemented using JWT (JSON Web Tokens) for secure access.
@@ -14,6 +14,7 @@ The Recipe Application is a web-based platform that allows users to explore and 
 - Users can search for recipes based on keywords, ingredients, or categories.
 - Recipe search utilizes the Spoonacular API to fetch recipe data.
 ![recipe search image](./images/home2.JPG)
+
 ### 3. Recipe Details
 - Users can view detailed information about a selected recipe, including ingredients, cooking instructions, and cooking time.
 ![recipe details image](./images/recipe%20details.JPG)
@@ -51,10 +52,10 @@ The Recipe Application is a web-based platform that allows users to explore and 
 
 
 4. Create a .env file in the server directory with the following variables:
-   PORT=8080
-   mongoURL=<your-mongodb-url>
-   JWT_SECRET_KEY=<your-secret-key>
-   API_KEY=<your-spoonacular-api-key>  ';
+   PORT="";
+   mongoURL=<your-mongodb-url>;
+   JWT_SECRET_KEY=<your-secret-key>;
+   API_KEY=<your-spoonacular-api-key>;
 
 
 ### Usage
